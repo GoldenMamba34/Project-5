@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Photo Gallery</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <script>$(document).ready(function(){$("a").on('click', function(event){if (this.hash !==""){event.preventDefault(); var hash=this.hash; $('html, body').animate({scrollTop: $(hash).offset().top}, 700, function(){window.location.hash=hash;});}});});</script>
+
+    </head>
+    <body>
+<input type="text" name="search" id="search">
+        <div id="images">
+
+            <img class="image" src="imageAssets/photos/thumbnails/01.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+            <img class="image" src="imageAssets/photos/thumbnails/02.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+            <img class="image" src="imageAssets/photos/thumbnails/03.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+            <img class="image lastImage" src="imageAssets/photos/thumbnails/04.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+
+
+            <img class="image" src="imageAssets/photos/thumbnails/05.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+            <img class="image" src="imageAssets/photos/thumbnails/06.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+            <img class="image" src="imageAssets/photos/thumbnails/07.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+            <img class="image lastImage" src="imageAssets/photos/thumbnails/08.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+
+            <img class="image" src="imageAssets/photos/thumbnails/09.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+            <img class="image" src="imageAssets/photos/thumbnails/10.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+            <img class="image" src="imageAssets/photos/thumbnails/11.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+            <img class="image lastImage" src="imageAssets/photos/thumbnails/12.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+        </div>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
