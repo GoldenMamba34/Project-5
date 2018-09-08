@@ -9,7 +9,7 @@
     justify-content: center;
 
 }
-.image {
+#images a {
 margin-right: 2.5%;
 margin-left: 2.5%;
 margin-top: 5%;
@@ -33,4 +33,9 @@ margin-top: 5%;
 #search:focus {
     border: 2px solid rgb(109, 109, 109); 
     transition-duration: .5s;
+}
+
+
+.sl-caption {
+    text-align: center;
 }

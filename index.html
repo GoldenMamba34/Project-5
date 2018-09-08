@@ -1,32 +1,33 @@
 <html>
     <head>
         <title>Photo Gallery</title>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<script>$(document).ready(function(){$("a").on('click', function(event){if (this.hash !==""){event.preventDefault(); var hash=this.hash; $('html, body').animate({scrollTop: $(hash).offset().top}, 700, function(){window.location.hash=hash;});}});});</script>
+<link rel="stylesheet" href="simplelightbox.min.css">
+<script src="simple-lightbox.min.js"></script>
 <link rel="stylesheet" href="style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <script>$(document).ready(function(){$("a").on('click', function(event){if (this.hash !==""){event.preventDefault(); var hash=this.hash; $('html, body').animate({scrollTop: $(hash).offset().top}, 700, function(){window.location.hash=hash;});}});});</script>
-
     </head>
     <body>
 <input type="text" name="search" id="search" placeholder="Search for images">
         <div id="images">
+            <a href="imageAssets/photos/01.jpg" class="big" ><img src="imageAssets/photos/thumbnails/01.jpg" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields." title="Hay Bales" /></a>
+            <a href="imageAssets/photos/02.jpg" class="big"><img src="imageAssets/photos/thumbnails/02.jpg" alt="The lake was so calm today. We had a great view of the snow on the mountains from here." title="Lake" /></a>
+            <a href="imageAssets/photos/03.jpg" class="big"><img src="imageAssets/photos/thumbnails/03.jpg" alt="I hiked to the top of the mountain and got this picture of the canyon and trees below." title="Canyon" /></a>
+            <a href="imageAssets/photos/04.jpg" class="big"><img src="imageAssets/photos/thumbnails/04.jpg" alt="It was amazing to see an iceberg up close, it was so cold but didn’t snow today." title="Iceberg"/></a>
+            <a href="imageAssets/photos/05.jpg" class="big"><img src="imageAssets/photos/thumbnails/05.jpg" alt="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons." title="Desert"/></a>
+            <a href="imageAssets/photos/06.jpg" class="big"><img src="imageAssets/photos/thumbnails/06.jpg" alt="Fall is coming, I love when the leaves on the trees start to change color." title="Fall" /></a>
 
-            <img class="image" src="imageAssets/photos/thumbnails/01.jpg" title="Hay Bales" alt="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
-            <img class="image" src="imageAssets/photos/thumbnails/02.jpg" title="Lake" alt="The lake was so calm today. We had a great view of the snow on the mountains from here.">
-            <img class="image" src="imageAssets/photos/thumbnails/03.jpg" title="Canyon" alt="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
-            <img class="image lastImage" src="imageAssets/photos/thumbnails/04.jpg" title="Iceberg" alt="It was amazing to see an iceberg up close, it was so cold but didn’t snow today. ">
+            <a href="imageAssets/photos/07.jpg" class="big"><img src="imageAssets/photos/thumbnails/07.jpg" alt="I drove past this plantation yesterday, everything is so green!" title="Plantation" /></a>
+            <a href="imageAssets/photos/08.jpg" class="big"><img src="imageAssets/photos/thumbnails/08.jpg" alt="My summer vacation to the Oregon Coast. I love the sandy dunes!" title="Dunes" /></a>
+            <a href="imageAssets/photos/09.jpg" class="big"><img src="imageAssets/photos/thumbnails/09.jpg" alt="We enjoyed a quiet stroll down this countryside lane." title="Countryside Lane" /></a>
+            <a href="imageAssets/photos/10.jpg" class="big"><img src="imageAssets/photos/thumbnails/10.jpg" alt="Sunset at the coast! The sky turned a lovely shade of orange." title="Sunset" /></a>
+            <a href="imageAssets/photos/11.jpg" class="big"><img src="imageAssets/photos/thumbnails/11.jpg" alt="I did a tour of a cave today and the view of the landscape below was breathtaking." title="Cave" /></a>
+            <a href="imageAssets/photos/12.jpg" class="big"><img src="imageAssets/photos/thumbnails/12.jpg" alt="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in." title="Bluebells" /></a>
 
 
-            <img class="image" src="imageAssets/photos/thumbnails/05.jpg" title="Desert" alt="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
-            <img class="image" src="imageAssets/photos/thumbnails/06.jpg" title="Fall" alt="Fall is coming, I love when the leaves on the trees start to change color.">
-            <img class="image" src="imageAssets/photos/thumbnails/07.jpg" title="Plantation" alt="I drove past this plantation yesterday, everything is so green!">
-            <img class="image lastImage" src="imageAssets/photos/thumbnails/08.jpg" title="Dunes" alt="My summer vacation to the Oregon Coast. I love the sandy dunes!">
-
-            <img class="image" src="imageAssets/photos/thumbnails/09.jpg" title="Countryside Lane" alt="We enjoyed a quiet stroll down this countryside lane.">
-            <img class="image" src="imageAssets/photos/thumbnails/10.jpg" title="Sunset" alt="Sunset at the coast! The sky turned a lovely shade of orange.">
-            <img class="image" src="imageAssets/photos/thumbnails/11.jpg" title="Cave" alt="I did a tour of a cave today and the view of the landscape below was breathtaking.">
-            <img class="image lastImage" src="imageAssets/photos/thumbnails/12.jpg" title="Bluebells" alt="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
         </div>
-
-
         <script src="main.js"></script>
     </body>
+    
 </html>
