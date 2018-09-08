@@ -4,15 +4,33 @@
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 .image {
-margin-right: 5%;
+margin-right: 2.5%;
+margin-left: 2.5%;
 margin-top: 5%;
 }
-.lastImage {
-    margin-right: 0;
-}
+
 #search {
-    height: 30px;
-    width:20%;
+    height: 44px;
+    padding: 10px;
+    line-height: 40px;
+    font-size:18px;
+    width:40%;
+    outline: none;
+    border: 2px solid rgb(199, 198, 198);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+    border-radius: 5.5px;
+    margin-bottom: -10px;
+    
+}
+#search:focus {
+    border: 2px solid rgb(109, 109, 109); 
+    transition-duration: .5s;
 }
