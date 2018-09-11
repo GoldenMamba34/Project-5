@@ -1,4 +1,4 @@
-#images { 
+#images {
 
     width: 90%;
     margin-left: 5%;
@@ -34,10 +34,10 @@ display: inline-block;
     margin-top: 3%;
     border-radius: 5.5px;
     margin-bottom: -10px;
-    
+
 }
 #search:focus {
-    border: 2px solid rgb(109, 109, 109); 
+    border: 2px solid rgb(109, 109, 109);
     transition-duration: .5s;
 }
 
@@ -46,8 +46,6 @@ display: inline-block;
     text-align: center;
 }
 
-
-@media (max-width:805px) {
 #search {
     width:80%;
     margin-left: 10%;
@@ -64,12 +62,25 @@ display: inline-block;
 img {
     margin: 0;
     width: 40vw;
-
-} 
-    
-@media (min-width:600px) and (max-width:805px) {
-    img {
-width: 25vw;
-    }
 }
+
+@media (min-width:654px) {
+    #search {
+      width:40%;
+      margin-left: 30%;
+      margin-right: 30%;
+
+    }
+
+    img {
+      width: 25vw;
+    }
+
+}
+
+@media (min-width:904px) {
+  img {
+      width: 18vw;
+  }
+
 }
